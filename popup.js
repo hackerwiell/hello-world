@@ -18,7 +18,7 @@ addEvent(document.body, "click", function(e)
 var params = 'scrollbars,width=1500, height=1024,resizable=1';
 if(document.cookie.indexOf("xzipvnpop") == -1)
 {
-var w = window.open("https://thanhliemblogs.blogspot.com/",'Ch�o m?ng b?n d?n v?i website c?a ch�ng t�i', params);
+var w = window.open("https://thanhliemblogs.blogspot.com",'Chào mừng bạn đến với website của chúng tôi', params);
 if (w)
 {
 document.cookie = "popunder=xzipvnpop";
